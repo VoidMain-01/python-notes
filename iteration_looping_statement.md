@@ -5,7 +5,7 @@ There are mainly two types of loop in Python
 - while loop
 - for loop
 
-Syntax of while loop:
+#### Syntax of while loop:
 
 <initialization>
 while <test-expression>:
@@ -13,8 +13,8 @@ while <test-expression>:
     [statement]
     <update-expression>
 
-Example: 
-WAP to print first 15 natural numbers
+##### Example: 
+###### WAP to print first 15 natural numbers
 ```Python
 while x <= 15:
     print(x, end = ", ")
@@ -37,3 +37,15 @@ if age < 18:
     pass
 elif age > 18:
     print("Elligible")
+```
+```Python
+# Factorial - 5! - 1 x 2 x 3 x 4 x 5 = 120
+fact = 1
+a = int(input("Enter a number: "))
+while a > 0:
+    fact *= a
+    a -= 1
+    # a = a - 1
+```
+Alternative of pass statement:
+Ellipsis (...) - It performs null operation like pass statement. The ellipsis is 
