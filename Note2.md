@@ -10,24 +10,24 @@ class_name object_name = new class_name;
 How to make object in python
 object_name = class_name()
 
-How to write python code (way to write python code)
-===================================================
+# How to write python code (way to write python code)
+---
 In general we can write python code in two ways :
-	-> Script Mode (Shell / IDLE)
-	-> Interactive Mode
+	- Script Mode (Shell / IDLE)
+	- Interactive Mode
 	
 	
-Interactive Mode :
-==================
+# Interactive Mode :
+---
 In this mode we can test any code but not save that code, all code execute line by line.
->>>
+*>>>*
 
-Script mode :
-=============
+# Script mode :
+---
 In this mode we can save that code by using .py ones we save then we can reuse / edit that code.
 
-ch.1 Opearators
-===============
+# ch.1 Opearators
+---
 	Expression : collection of both opearator & operand
 	
 	Opearators :
@@ -40,19 +40,21 @@ ch.1 Opearators
 >>> print (keyword . kwlist )
 ['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
 
-Types of Operators using operands :
-===================================
-- Unary -> work with one operand
+# Types of Operators using operands :
+---
+- Unary : work with one operand
 		ex : + , - , not , ~
-- Binary -> work with two operands
+- Binary : work with two operands
 		ex : + , - , * , / , %
--Ternary -> python doesn't support ternary operators
-		 -> it support conditional statement that used for lambda function
+-Ternary : python doesn't support ternary operators
+		 - it support conditional statement that used for lambda function
 		 
-Syntax : True value if condition else False value 
-
-Types of Operators using opration :
-===================================
+Syntax : 
+```Python
+True_value if condition else False_value 
+```
+# Types of Operators using opration :
+---
 - Arithmetic -> +, -, *, **, /, //, %
 - Relational -> >, <, >=, <=, ==, !=
 - Bitwise -> &, |, ^, ~, >>, <<
@@ -70,21 +72,27 @@ Object is used to represent class.
 Object is used to access both attribute & behaviour of class
 
 Syntax to make object in C++ :
+		```C++
 		classname objectname ;
+		```
 Syntax to make object in java :
+		```Java
 		classname objectname = new classname() ;
+		```
 Syntax to make object in py :
+		```Python
 		objectname = classname ()
+		```
 		
-Iterable and not iterable
-=========================
+# Iterable and not iterable
+---
 from an object we get a single element / works iter function then called as iterable otherwise not iterable object
 list (), tuple (), set (), bytes (), bytearray (), dict (), str(), range () are iterable class
 but 
 int (), float (), complex (), None, bool (), are not iterable class
 
 
-Mutable & immutable
-===================
+# Mutable & immutable
+---
 after create if any object is update / modify then that object is called mutable type other wise called as immutable type.
 int (), float (), complex (), None, bool (), tuple (), bytes (), frozenset (), str () are immutable type where as list (), set (), bytearray (), dict (), range (), are mutable type.

@@ -48,4 +48,4 @@ while a > 0:
     # a = a - 1
 ```
 Alternative of pass statement:
-Ellipsis (...) - It performs null operation like pass statement. The ellipsis is 
+Ellipsis (...) - It performs null operation like pass statement. The ellipsis is 2
