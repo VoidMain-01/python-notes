@@ -55,13 +55,13 @@ True_value if condition else False_value
 ```
 # Types of Operators using opration :
 ---
-- Arithmetic -> +, -, *, **, /, //, %
-- Relational -> >, <, >=, <=, ==, !=
-- Bitwise -> &, |, ^, ~, >>, <<
+- Arithmetic : +, -, *, **, /, //, %
+- Relational : >, <, >=, <=, ==, !=
+- Bitwise : &, |, ^, ~, >>, <<
 - Conditional
-- Logical -> and, or, not
-- Assignment -> =
-& Comp Assignment -> +=, -=, *=, **=, /=, //=, &=, |=, ^=, >>=, <<=
+- Logical : and, or, not
+- Assignment : =
+- Comp Assignment : +=, -=, *=, **=, /=, //=, &=, |=, ^=, >>=, <<=
 
 - membership : in , not in
 - identity : is, is not
